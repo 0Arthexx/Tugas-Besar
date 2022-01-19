@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.margin {
+    background-color: rgba(33, 37, 41, 0.9);
+    border-radius: 80%;
+    padding-top: 5%;
+    margin: auto;
+    font-family: Arial;
+    color: brown;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+#myVideo {
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     min-width: 100%; 
+     min-height: 100%;
+}
+
+#background-video {
+    opacity: 85%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.font {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: brown;
+}
+
+.font-paragraph {
+    background-color: rgb(33, 37, 41, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: seashell;
+}
+
+.hr {
+    border: 10px;
+    color: cornsilk;
+}
+
+.video1 {
+    margin-left: 15%;
+}
+
+.table {
+    border: 1px;
+    border-color: black;
+    background-color: cadetblue;
+    color:seashell;
+    opacity: 80%;
+}
+
+.hr-title {
+    border-color: rgb(160, 79, 79);
+    border-width: 100px;
+}
+
+.hr {
+    border: 5px;
+    border-color: rgb(160, 79, 79);
+}

@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* padding-bottom: 1000px; */
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  }
+  
+/* About Game */
+.container-about-game {
+  background-color: black;
+  border: 5px solid black;
+  /* margin-top: 10px; */
+  height: 50px;
+  width: 100%;
+}
+
+.container-about-game > h1 {
+  text-align: center;
+  color: white;
+  font-family: "Luxurious Roman", cursive;
+}
+
+.padbot {
+  padding-bottom: 1000px;
+}
+
+.isiaboutgame {
+  background-color: grey;
+  border: 5px solid black;
+  /* margin-top: 10px; */
+  height: 500px;
+  width: 100%;
+}
+
+.isiaboutgame > h3 {
+  text-align: center;
+  color: black;
+  font-family: "Luxurious Roman", cursive;
+}
+
+.container10 {
+  margin: auto;
+  margin-top: 40px;
+  height: 650px;
+  gap: 0px;
+  /* background-color: black; */
+  background-image: url(../src/bg\ img\ potrait.jpg);
+  /* opacity: 0.5; */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* margin: 0px auto; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-template-areas:
+    "header header header"
+    "sidebar sidebar sidebar"
+    "footer footer footer";
+  /* margin-bottom: 1000px; */
+}
+
+@media screen and (min-width: 1000px) {
+  .container10 {
+    /* background-color: black; */
+    background-image: url(../src/bg\ dota\ ke\ 2\ fix\ banget.jpg);
+    grid-template-areas:
+      "header header header"
+      "sidebar sidebar sidebar"
+      "footer footer footer";
+  }
+
+  .header {
+    width: 200px;
+  }
+}
+
+.item {
+  /* border: 10px solid black; */
+  width: 100%;
+  /* background-color: rgb(138, 209, 254); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+/* .item:nth-child(even) {
+            background-color: rgb(255, 142, 142);
+          } */
+
+.header {
+  /* background-image: url(./src/bg\ img\ dota\ 2.jpg); */
+  grid-area: header;
+  /* background-color: lightblue; */
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: rgb(255, 255, 255, 0);
+  color: white;
+  font-size: 50px;
+  font-family: "Luxurious Roman", cursive;
+}
+
+.content {
+  grid-area: content;
+  /* background-color: rgb(177, 255, 177); */
+}
+
+.footer {
+  grid-area: footer;
+  /* background-color: rgba(255, 255, 255, 0.698); */
+}
+
+.services {
+  background-color: #1f1b12;
+  /* margin-top: 10px; */
+  /* height: 400px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 15px;
+  /* background-image: url(../src/bg\ dota\ ke\ 2\ fix\ banget.jpg); */
+  /* opacity: 10%; */
+  /* filter: blur(5px) ;
+    -webkit-filter: blur(5px) ; */
+}
+
+.service {
+  background-color: rgb(80, 80, 80, 0.95);
+  padding: 0px;
+  text-align: center;
+  border: 5px solid black;
+  /* border-radius: 10px; */
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.service .icon {
+  font-size: 4em;
+}
+
+.service h3 {
+  font-size: 1, 5em;
+}
+
+.service p {
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+}
+
+/* adawdwd */
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.box video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* card flip */
+
+
+.classfilter{
+  background-color: black;
+  text-decoration: white;
+}
+
+.heroes11{
+  color: white;
+  text-align: center;
+  margin-left: 45%;
+}
