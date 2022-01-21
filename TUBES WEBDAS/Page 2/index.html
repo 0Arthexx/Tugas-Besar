@@ -73,6 +73,36 @@
 data-aos-easing="linear"
 data-aos-duration="1000">Dota 2 Map</h1>
   </div>
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Change Page</button>
+  </div>
+  
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header ">
+    <h5 class="offcanvas-title ms-5" id="offcanvasBottomLabel  ">Select the page you want to go to</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center btn-lg " >
+        <li class="page-item disabled">
+          <a href="../Page 1/index.html" target="blank"><button type="button" class="btn btn-outline-dark btn-lg"  >Previous</button></a>
+          <!-- <a class="page-link btn-lg btn btn-outline-dark " type="button">Previous</a> -->
+        </li>
+        <a href="../Page 1/index.html" target="blank"><button type="button" class="btn btn-outline-dark btn-lg"  >1</button></a>
+        <a  target="blank"><button type="button" class="btn btn-outline-dark btn-lg disabled"  >2</button></a>
+        <a href="../" target="blank"><button type="button" class="btn btn-outline-dark btn-lg"  >3</button></a>
+        <li class="page-item">
+          <a href="../Page 3/index.html" target="blank"><button type="button" class="btn btn-outline-dark btn-lg"  >Next</button></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+  
+    
 
     <br>
 
@@ -84,13 +114,13 @@ data-aos-duration="1000">Dota 2 Map</h1>
 </div>
 <script >
   let myVideo = document.getElementById("1videoo");
-  myVideo.volume = 0.5;
+  myVideo.volume = 0.0;
 </script>
 <br id="maps">
 <br>
-    <h1 class="text-center">  <span class="badge bg-danger text-white " style=" font-family: Trajan; "> MAPS </span></h1>
+    <h1> <span class="badge bg-danger text-white " style="margin-left: 45%;"> MAPS </span></h1>
     <br>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" class="container">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -107,59 +137,56 @@ data-aos-duration="1000">Dota 2 Map</h1>
           <img  src="src/Default.jpg" class="d-block " style=" width: 80%; margin-left: 10%;" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Default Map</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <p>The Map is the playing field for all Dota 2 matches. It is comprised of two sides, one for the Radiant icon.png Radiant faction, and one for the Dire icon.png Dire faction</p>
           </div>
         </div>
         <div class="carousel-item">
           <img  src="src/Autumn.jpg" class="d-block " style=" width: 80%; margin-left: 10%;" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Autumn Map</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5>Autumn</h5>
+            <p>Released: 05 Oct 2016. This terrain is awarded to subscribers of Dota Plus. It is temporary and will expire after the season ends.</p>
           </div>
         </div>
         <div class="carousel-item">
           <img  src="src/Dessert.jpg" class="d-block " style=" width: 80%; margin-left: 10%;" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Desert Map</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>Desert</h5>
+            <p>Released: 16 Dec 2015. This item was awarded to players who owned The International Compendium 2015.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <!-- imortal garden map-->
-          <img  src="src/New Jorney Testing2.jpg" class="d-block " style=" width: 80%; margin-left: 10%;" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>imortal garden map<Map></Map></h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <!-- New Jorney map-->
           <img  src="src/dotamap3_26.jpg" class="d-block " style=" width: 80%; margin-left: 10%;" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>New Jorney map<Map></Map></h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>Immortals Gradens<Map></Map></h5>
+            <p>Released: 16 May 2016. This terrain is awarded to players who own The International 2016 Battle Pass and leveled it to 125.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <!-- reef's edge map-->
+          <img  src="src/dotamap3_27.jpg" class="d-block " style=" width: 80%; margin-left: 10%;" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>The King's New Journey<Map></Map></h5>
+            <p>Released: 16 May 2016. This terrain was released with Monkey King minimap icon.png Monkey King.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
           <img  src="src/dotamap3_28.jpg" class="d-block " style=" width: 80%; margin-left: 10%;" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>reef's edge map<Map></Map></h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>Reef's Edge<Map></Map></h5>
+            <p>Released: 04 May 2017. This terrain was awarded to players who own The International 2017 Battle Pass and leveled it to 150. It comes with the Reef's Edge Loading Screen.</p>
           </div>
         </div>
         <div class="carousel-item">
           <img  src="src/Spring.jpg" class="d-block " style=" width: 80%; margin-left: 10%;" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Spring<Map></Map></h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <p>Released: 16 May 2016. This terrain is awarded to subscribers of Dota Plus. It is temporary and will expire after the season ends.</p>
           </div>
         </div>
         <div class="carousel-item">
           <img  src="src/Winter.jpg" class="d-block " style=" width: 80%; margin-left: 10%;" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Winter<Map></Map></h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <p>Released: 27 Jan 2016 .This terrain is awarded to subscribers of Dota Plus. It is temporary and will expire after the season ends.</p>
           </div>
         </div>
       </div>
@@ -179,27 +206,27 @@ data-aos-duration="1000">Dota 2 Map</h1>
 
 <br>
 <br>
-    <h1 class="text-center"> <span class="badge bg-danger text-white " style="font-family: Trajan;"> TOWER </span></h1>
+    <h1> <span class="badge bg-danger text-white " style="margin-left: 45%;"> TOWER </span></h1>
     <br>
 
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="src/Tower_Dire_model_testing.jpg" class="d-block" alt="..." style=" width: 30%; margin-left: 35%;">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="src/Tower_Dire_model_testing.jpg" class="d-block" alt="..." style=" width: 30%; margin-left: 35%;">
+        </div>
+        <div class="carousel-item">
+          <img src="src/Tower_Radiant_model testing.jpg" class="d-block" alt="..." style=" width: 30%; margin-left: 35%;">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item">
-      <img src="src/Tower_Radiant_model testing.jpg" class="d-block" alt="..." style=" width: 30%; margin-left: 35%;">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
 <p class="font-paragraph" style="text-align: center;">The main line of base defense, towers are the primary buildings that can attack. Both the Radiant and the Dire have three lanes which are guarded by three towers each. Their Ancient is guarded by two neighboring towers. Towers are a higher tier depending on how far they are in the lane. Every tower, except for Tier 1 towers, are invulnerable until the lower tier tower in front of it is destroyed. The two Tier 4 towers defending a team's Ancient become vulnerable if any Tier 3 tower is destroyed. Barracks do not have to be destroyed to make these towers vulnerable. Both Tier 4 towers must be destroyed in order to remove the Ancient's invulnerability.
 
@@ -208,7 +235,7 @@ data-aos-duration="1000">Dota 2 Map</h1>
 <div>
   <br id="attackpriority">
 <br>
-    <h1 class="text-center"> <span class="badge bg-danger text-white " style=" font-family: Trajan;"> Attack Priority </span></h1>
+    <h1> <span class="badge bg-danger text-white " style="margin-left: 43%;"> Attack Priority </span></h1>
     <br>
   <p class="font-paragraph" style="text-align: center;">Towers have a specific targeting priority that determines which enemy it will attack. Listed from highest priority to lowest.</p>
 <div class="font-paragraph">
@@ -232,7 +259,7 @@ The tower will only switch targets under three circumstances:
 </div>
 <br id="statictower">
 <br>
-    <h1 class="text-center"> <span class="badge bg-danger text-white " style=" font-family: Trajan;"> Static Tower </span></h1>
+    <h1> <span class="badge bg-danger text-white " style="margin-left: 43%;"> Static Tower </span></h1>
     <br>
   <table style="width:100%" class="table">
     <tr>
@@ -279,68 +306,66 @@ The tower will only switch targets under three circumstances:
 
 <br id="barracks">
 <br>
-    <h1 class="text-center"> <span class="badge bg-danger text-white " style=" font-family: Trajan;"> Barracks </span></h1>
+    <h1> <span class="badge bg-danger text-white " style="margin-left: 45%;"> Barracks </span></h1>
     <br>
-<div class="text-center">
-<img src="src/Barracks.jpg" >
-</div>
-<p class="font-paragraph" style="text-align: center;">Barracks are buildings that spawn Lane Creeps and are defended by Tier 3 towers. There are two barracks for each lane. The Melee Barracks is always to the right and the Ranged Barracks is always to the left, no matter which faction's side of the map you are on. Destroying an enemy Barracks grants your team's corresponding lane super creeps. For example, if you destroy the middle lane's Melee Barracks, your middle lane will now spawn Super Melee creeps.
+<div class="container">
+  <div class="image-container" class="image">
+    <img src="src/Barracks.jpg" style="margin-left: 30%;">
+  </div>
+
+  <p class="font-paragraph" style="text-align: center;">Barracks are buildings that spawn Lane Creeps and are defended by Tier 3 towers. There are two barracks for each lane. The Melee Barracks is always to the right and the Ranged Barracks is always to the left, no matter which faction's side of the map you are on. Destroying an enemy Barracks grants your team's corresponding lane super creeps. For example, if you destroy the middle lane's Melee Barracks, your middle lane will now spawn Super Melee creeps.
 
   Destroying all of the enemy base's barracks will cause an announcement to sound, alerting both teams that you are now spawning mega creeps. This upgrades Super creeps to Mega Creeps, making them even more powerful. See Lane Creeps for more details. Creeps will always spawn, regardless of whether there is a barracks or not. Barracks are invulnerable until the corresponding tower that guards them is destroyed. </p>
   
   
   <br id="ancient">
-<br>
-    <h1 class="text-center"> <span class="badge bg-danger text-white " style=" font-family: Trajan;"> Ancient </span></h1>
-    <br>
-<div class="text-center">
-  <img src="src/Ancients.jpg" >
-</div>
-
-<p class="font-paragraph" style="text-align: center;">Ancients (also known as Thrones) are massive structures and the main objective. To win, your team must destroy the enemy Ancient. Ancients have no offensive abilities, but are guarded by towers and powerful team of five heroes. The Ancient is invincible until both Tier 4 towers are destroyed.</p>
-
-<br id="fountain">
-<br>
-    <h1 class="text-center"> <span class="badge bg-danger text-white " style=" font-family: Trajan;"> Fountain </span></h1>
+  <br>
+    <h1> <span class="badge bg-danger text-white " style="margin-left: 45%;"> Ancient </span></h1>
     <br>
 
-    <div class="text-center">
-      <img src="src/Fountains.jpg">
+    <div class="image-container" class="image"> 
+      <img src="src/Ancients.jpg" style="margin-left: 30%;">
     </div>
+  <p class="font-paragraph" style="text-align: center;">Ancients (also known as Thrones) are massive structures and the main objective. To win, your team must destroy the enemy Ancient. Ancients have no offensive abilities, but are guarded by towers and powerful team of five heroes. The Ancient is invincible until both Tier 4 towers are destroyed.</p>
 
-<p class="font-paragraph" style="text-align: center;">The fountain is a structure located in the respawn area of each base, and provides a healing and mana regeneration aura to all allied units near it.
+  <br id="fountain">
+  <br>
+    <h1> <span class="badge bg-danger text-white " style="margin-left: 45%;"> Fountain </span></h1>
+    <br>
+
+    <div class="image-container" class="image">
+      <img src="src/Fountains.jpg" style="margin-left: 30%;">
+    </div>
+  <p class="font-paragraph" style="text-align: center;">The fountain is a structure located in the respawn area of each base, and provides a healing and mana regeneration aura to all allied units near it.
 
   Bottles are automatically refilled when you are near the fountain. The Home Shop is located at the fountain. </p>
 
   <br id="shrines">
   <br>
-      <h1 class="text-center"> <span class="badge bg-danger text-white " style=" font-family: Trajan;"> Shrines </span></h1>
+      <h1> <span class="badge bg-danger text-white " style="margin-left: 45%;"> Shrines </span></h1>
       <br>
-
-      <div class="text-center">
-<img src="src/Shrines.jpg" >
-      </div>
-
-<p class="font-paragraph" style="text-align: center;">Shrines are regenerative structures. Each team has 1 Shrine on the map, near to Roshan. They can be directly teleported to just like all other team buildings. Shrines are invulnerable until a Tier 3 tower is destroyed. Shrines do not have vision.</p>
-
-<br id="pillars">
-<br>
-    <h1 class="text-center"> <span class="badge bg-danger text-white " style=" font-family: Trajan;"> Pillars </span></h1>
-    <br>
-
-    <div class="text-center">
-      <img src="src/Pillars.jpg" >
+    <div class="image-container" class="image">
+      <img src="src/Shrines.jpg" style="margin-left: 30%;">
     </div>
+  <p class="font-paragraph" style="text-align: center;">Shrines are regenerative structures. Each team has 1 Shrine on the map, near to Roshan. They can be directly teleported to just like all other team buildings. Shrines are invulnerable until a Tier 3 tower is destroyed. Shrines do not have vision.</p>
 
-<p class="font-paragraph" style="text-align: center;">Pillars or Effigies are smaller structures that act as buffers within a base, making creeps take longer to reach actual towers and give the base's defenders more time to act. Invulnerable until a Tier 3 tower is destroyed. </p>
-
-<br id="outpost">
-<br>
-    <h1 class="text-center"> <span class="badge bg-danger text-white " style=" font-family: Trajan;"> Outpost </span></h1>
+  <br id="pillars">
+  <br>
+    <h1> <span class="badge bg-danger text-white " style="margin-left: 45%;"> Pillars </span></h1>
     <br>
 
+  <div class="image-container" class="image">   
+    <img src="src/Pillars.jpg" style="margin-left: 30%;">
+  </div>
+  <p class="font-paragraph" style="text-align: center;">Pillars or Effigies are smaller structures that act as buffers within a base, making creeps take longer to reach actual towers and give the base's defenders more time to act. Invulnerable until a Tier 3 tower is destroyed. </p>
 
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <br id="outpost">
+  <br>
+    <h1> <span class="badge bg-danger text-white " style="margin-left: 45%;"> Outpost </span></h1>
+    <br>
+
+<div class="image-container" class="image">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="src/Outpost_Neutral_model.jpg" class="d-block " alt="..." style=" width: 30%; margin-left: 35%;">
@@ -360,27 +385,43 @@ The tower will only switch targets under three circumstances:
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+  </div>
 </div>
 
+  <div class="popup-image">
+    <span>&times;</span>
+    <img src="src/Pillars.jpg" alt="">
+  </div>
+</div>
 <p class="font-paragraph" style="text-align: center;">There are two of these on the map, located where the Side Shops were previously. Right clicking to channel it takes several seconds and then you gain control over the outpost. Converts faster with more allies channeling. Having control over an outpost grants you bonus XP upon initially capturing it, and at 10 minute intervals on the game clock. It also provides your team unobstructed vision in that area and allows you to TP to it. Outposts are inactive for the first 10 minutes of the game and cannot be captured until then.</p>
-<!-- </div>  -->
-<div style="background-color: #212529;">
-  <nav aria-label="Page navigation example ">
-      <ul class="pagination justify-content-center btn-lg " >
-          <li class="page-item disabled"><a href="../Page 1/index.html">
-      <button type="button" class="btn btn-outline-dark btn-lg text-white">Previous</button></a>
+<div style="background-color: rgba(255, 255, 255, 0.5);">
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center btn-lg " >
+    <li class="page-item disabled">
+      <a href="../Page 1/index.html" target="blank"><button type="button" class="btn btn-outline-dark btn-lg"  >Previous</button></a>
       <!-- <a class="page-link btn-lg btn btn-outline-dark " type="button">Previous</a> -->
-          </li><a href="../Page 1/index.html">
-      <button type="button" class="btn btn-outline-dark btn-lg text-white">1</button></a>
-              <a href="../Page 2/index.html" ><button type="button" class="btn btn-outline-dark btn-lg text-white disabled"  >2</button></a>
-              <a href="../Page 3/index.html" ><button type="button" class="btn btn-outline-dark btn-lg text-white "  >3</button></a>
-          <li class="page-item">
-              <a href="../Page 3/index.html" ><button type="button" class="btn btn-outline-dark btn-lg text-white "  >Next</button></a>
-          </li>
-      </ul>
+    </li>
+    <a href="../Page 1/index.html" target="blank"><button type="button" class="btn btn-outline-dark btn-lg"  >1</button></a>
+    <a  target="blank"><button type="button" class="btn btn-outline-dark btn-lg disabled"  >2</button></a>
+    <a href="../" target="blank"><button type="button" class="btn btn-outline-dark btn-lg"  >3</button></a>
+    <li class="page-item">
+      <a href="../Page 3/index.html" target="blank"><button type="button" class="btn btn-outline-dark btn-lg"  >Next</button></a>
+    </li>
+  </ul>
 </nav>
-    </div>
-          <!-- Akhir Nav Pages -->
+</div>
+<script>
+  document.querySelectorAll('.image-container img').forEach(image =>{
+      image.onclick = () =>{
+          document.querySelector('.popup-image').style.display = 'block';
+          document.querySelector('.popup-image img').src = image.getAttribute('src');
+      }
+  });
+  document.querySelector('.popup-image span').onclick = () =>{
+      document.querySelector('.popup-image').style.display = 'none';
+  }
+</script>
 </body>
 </html>
 
