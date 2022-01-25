@@ -1,0 +1,148 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.about-section {
+    border-radius: 10%;
+    background-color: #212529;
+    padding-top: 80px;
+    text-align: center;
+    /* background-color: #474e5d; */
+    color: white;
+    /* margin-top: 10%; */
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.br{
+    background-color: #212529;
+}
+
+.text{
+    color: cyan;
+      border-right: 2px solid white;
+      /* font-size: 55px; */
+      font-family: sans-serif;
+  }
+
+.animasihover{
+    /* width: 100px; */
+    /* height: 100px; */
+    background: red;
+    transition: width 0.01s;
+}
+
+      #background-video {
+        opacity: 100%;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    #tombol {
+        padding: 0.8em 1.8em;
+        border: 2px solid black;
+        position: relative;
+        overflow: hidden;
+        background-color: transparent;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 16px;
+        transition: .3s;
+        z-index: 1;
+        font-family: inherit;
+        color: #000;
+       }
+       
+       #tombol::before {
+        content: '';
+        width: 0%;
+        height: 550%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        background: #ff0000;
+        transition: .5s ease;
+        display: block;
+        z-index: -1;
+       }
+       
+       #tombol:hover::before {
+        width: 105%;
+       }
+       
+       #tombol:hover {
+        color: white;
+       }
+       
